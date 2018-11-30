@@ -1,0 +1,233 @@
+h3{font-style:bold;
+font-family:Arial;
+}
+
+#SearchResults{
+	color:black;
+	position:relative;
+	left:610px;
+	bottom:-250px;
+	font-size:30px;
+}
+
+#SearchAgainButton{
+	background-color:#003399;
+	position:relative;
+	width:180px;
+	height: 54px;
+	left:1040px;
+	bottom:-237px;
+}
+
+#Job1box{
+	background-color:white;
+	position:relative;
+	left:-440px;
+	bottom:-30px;
+	width:670px;
+	height:200px;
+}
+
+#DG8004title{
+color:black;
+position:relative; 
+left:10px;
+bottom:-25px;
+width:600px;
+height:100px;
+font-size: 25px; 
+text-align:left;
+}
+
+#Jobid1{
+color:black;
+position:relative;
+left:10px;
+bottom:-5px;
+width:170px;
+height:50px;
+font-size:21px;
+text-align:left;}
+
+#JobFam1{
+	color:black;
+	position:relative;
+	left:10px;
+	bottom:20px;
+	width:250px;
+	height:50px;
+	font-size:21px;
+	text-align:left;
+}
+
+#Job2box{
+	background-color:white;
+	position:relative;
+	bottom:-25px;
+	width:670px;
+	height:200px;
+}
+
+#CRI200title{
+	color:black;
+	position:relative;
+	left:10px;
+	bottom:-25px;
+	width:600px;
+	height:100px;
+	font-size: 25px; 
+	text-align:left;
+}
+
+#Jobid2{
+color:black;
+position:relative;
+width:170px;
+height:45px;
+font-size:21px;
+}
+
+#JobFam2{
+	color:black;
+	position:relative;
+	bottom:20px;
+	width:250px;
+	height:50px;
+	font-size:21px;
+}
+
+#Job3box{
+	background-color:white;
+	position:relative;
+	left:-10px;
+	bottom:-45px;
+	width:670px;
+	height:200px;
+}
+
+#GCM400title{
+	color:black;
+	position:relative;
+	left:10px;
+	bottom:-25px;
+	width:600px;
+	height:100px;
+	font-size: 25px; 
+	text-align:left;
+}
+
+#Jobid3{
+color:black;
+position:relative;
+width:170px;
+height:45px;
+font-size:21px;
+}
+
+#JobFam3{
+	color:black;
+	position:relative;
+	bottom:20px;
+	width:250px;
+	height:50px;
+	font-size:21px;
+	}
+
+#Job4box{
+	background-color:white;
+	position:relative;
+	bottom:-125px;
+	width:670px;
+	height:200px;
+}
+
+#FSN450title{
+	color:black;
+	position:relative;
+	left:10px;
+	bottom:-25px;
+	width:600px;
+	height:100px;
+	font-size: 25px; 
+	text-align:left;
+}
+
+#Jobid4{
+color:black;
+position:relative;
+width:170px;
+height:45px;
+font-size:21px;
+}
+
+#JobFam4{
+	color:black;
+	position:relative;
+	bottom:20px;
+	width:250px;
+	height:50px;
+	font-size:21px;
+	}
+
+#ShowingJobs {
+	color:black;
+	position:relative;
+	bottom:-106px;
+	left:218px;
+	font-size: 25px;
+	}
+
+#Button1{
+	background-color:#003399;
+	position:relative;
+	width:50px;
+	height:50px;
+	line-height:0px;
+	left:540px;
+	bottom:-1340px;
+	font-size:25px;
+}
+
+#Button2{
+	background-color:#003399;
+	position:relative;
+	width:50px;
+	height:50px;
+	line-height:0px;
+	left:565px;
+	bottom:-1340px;
+	font-size:25px;
+}
+
+#Button3{
+	background-color:#003399;
+	position:relative;
+	width:50px;
+	height:50px;
+	line-height:0px;
+	left:590px;
+	bottom:-1340px;
+	font-size:25px;
+}
+
+#NextButton{
+	background-color:#003399;
+	position:relative;
+	width:90px;
+	height:50px;
+	line-height:0px;
+	left:945px;
+	bottom:-1288px;
+	font-size:25px;
+}
+
+#ShowallButton{
+	background-color:#003399;
+	position:relative;
+	width:128px;
+	height:50px;
+	line-height:0px;
+	left:970px;
+	bottom:-1288px;
+	font-size:25px;
+}

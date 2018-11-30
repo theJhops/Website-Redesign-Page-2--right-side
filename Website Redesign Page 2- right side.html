@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color:#e5e5e5;"></body>
+	<head>
+	<link rel="stylesheet" type="text/css" href="Website Redesign Page 2- right side.css">
+	<link href="https://fonts.googleapis.com/css?family=Arial" rel="stylesheet">
+	</head>
+	
+	<body>
+		<div id="SearchResults">
+		<p><b>Search Results</b></p></div>
+<style>
+  .speech {position:relative; border: 3px solid #DDD; left:610px; bottom:-290px; width: 380px; height:35px; padding: 0; margin: 0;
+  }
+  .speech input {position:relative; border: 0; bottom: 1px; width: 325px; display: inline-block; height: 35px; text-align:center; font-size: 22px;
+  }
+  .speech img {position:relative; float: right; bottom:9px; left: -3px; width: 50px; 
+  }
+</style>
+
+<!-- Search Form -->
+<form id="labnol" method="get" action="https://www.google.com/search">
+  <div class="speech">
+    <input type="text" name="q" id="transcript" placeholder="Search within the list below" />
+    <img onclick="startDictation()" src="http://i.imgur.com/cHidSVu.gif" />
+  </div>
+</form>
+
+<!-- HTML5 Speech Recognition API -->
+<script>
+  function startDictation() {
+
+    if (window.hasOwnProperty('webkitSpeechRecognition')) {
+
+      var recognition = new webkitSpeechRecognition();
+
+      recognition.continuous = false;
+      recognition.interimResults = false;
+
+      recognition.lang = "en-US";
+      recognition.start();
+
+      recognition.onresult = function(e) {
+        document.getElementById('transcript').value
+                                 = e.results[0][0].transcript;
+        recognition.stop();
+        document.getElementById('labnol').submit();
+      };
+
+      recognition.onerror = function(e) {
+        recognition.stop();
+      }
+
+    }
+  }
+</script>
+		<button id="SearchAgainButton"><p style="color:white; line-height:0px; font-size:26px;">Search Again</p>
+
+	<div id="Job1box">
+		<div id="DG8004title">
+		<p><b>Digital Media Entrepreneurship Graduate Assistant (DG8004)</b></p></div> 	
+
+		<div id="Jobid1">Job ID: 90210 </div>
+		<div id="JobFam1">Family: Graduate Assistant Posted: October 17, 2018</div>
+
+	<div id="Job2box">
+		<div id="CRI200title">
+			<p><b>Canadian Copyright Graduate Assistant (CRI 200)</b></p>
+		<div id="Jobid2"> Job ID:90210 </div>
+		<div id="JobFam2"> Family: Graduate Assistant Posted: October 17, 2018</div>
+
+	<div id="Job3box">
+		<div id="GCM400title">
+			<p><b>Digital Design Studio Graduate Assistant (GCM 400)</b></p>
+			<div id="Jobid3"> Job ID:90210 </div>
+		<div id="JobFam3"> Family: Graduate Assistant Posted: October 17, 2018</div>
+		</div>
+	<div id="Job4box">
+		<div id="FSN450title">
+			<p><b>International Marketing Graduate Assistant (FSN 450)</b></p>
+			<div id="Jobid4"> Job ID:90210 </div>
+		<div id="JobFam4"> Family: Graduate Assistant Posted: October 17, 2018</div>
+		</div>
+
+		<div id="ShowingJobs">
+			<p>Showing 4 of 24 Jobs</p>
+		</div>
+
+	<button id="Button1"><p style="color:white; font-size: 25px;">1</p>
+	<button id="Button2"><p style="color:white; font-size: 25px;">2</p>
+	<button id="Button3"><p style="color:white; font-size: 25px;">3</p>
+	<button id="NextButton"><p style="color:white; font-size: 25px;">Next</p>
+	<button id="ShowallButton"><p style="color:white; font-size: 25px;">Show All</p>
+</body> </html>
